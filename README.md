@@ -24,6 +24,13 @@ Chatbot-Project/
 ├── user.png # User avatar
 ├── loading-spinner.gif # Loading animation
 └── README.md # Project documentation
+## 📸 Screenshot
+
+Here’s what the chatbot looks like:
+
+![Chatbot Screenshot](screenshot.png)
+
+
 
 ## 🎨 Technologies Used
 
