@@ -1,8 +1,9 @@
+import dayjs from 'dayjs';
 import RobotProfileImage from '../assets/robot.png';
 import UserProfileImage from '../assets/profile-1.jpg';
 import './ChatMessage.css';
 
-export function ChatMessage ({message, sender}) {
+export function ChatMessage ({message, sender, time}) {
         console.log(UserProfileImage);
         //const message = props.message;
         //const sender = props.sender;
@@ -32,6 +33,9 @@ export function ChatMessage ({message, sender}) {
             /*If the value on the left is true the the result gonna be the second value which is the value after the &&. It is a shortcut in JSX for if staments*/}
             <div className="chat-message-text">
               {message}
+              <div className='chat-message-time'>
+                {dayjs(time).format('HH:mm')}
+              </div>
             </div>
             {sender === 'user' && 
               (<img src={UserProfileImage} className="chat-mesage-profile"/>)
