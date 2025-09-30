@@ -1,6 +1,8 @@
 import { Link } from 'react-router';
 import Header from '../components/Header';
-import './TrackingPage.css'
+import './TrackingPage.css';
+import logoWhite from '../assets/images/logo-white.png';
+import mobileLogoWhite from '../assets/images/mobile-logo-white.png'
 
 export default function TrackingPage() {
     return (
@@ -12,9 +14,9 @@ export default function TrackingPage() {
                 <div className="left-section">
                     <Link to="/" className="header-link">
                         <img className="logo"
-                            src="images/logo-white.png" />
+                            src={logoWhite} />
                         <img className="mobile-logo"
-                            src="images/mobile-logo-white.png" />
+                            src={mobileLogoWhite} />
                     </Link>
                 </div>
 
