@@ -69,7 +69,8 @@ input, select, button {
    https://css-tricks.com/almanac/properties/l/line-clamp/ */
 .limit-text-to-2-lines {
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2; 
+  line-clamp: 2; /**************************** testing the feature ****************************/
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
