@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './CheckoutHeader.css'
 
 export default function CheckoutHeader() {
