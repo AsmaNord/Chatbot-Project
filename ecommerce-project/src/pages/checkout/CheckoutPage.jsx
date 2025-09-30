@@ -6,6 +6,8 @@ import './CheckoutPage.css';
 export default function CheckoutPage() {
     return (
         <>
+            <link rel="icon" type="image/svg+xml" href="cart-favicon.png" />
+
             <title>Checkout</title>
 
             <Header />
@@ -49,7 +51,7 @@ export default function CheckoutPage() {
                                         Choose a delivery option:
                                     </div>
                                     <div className="delivery-option">
-                                        <input type="radio" checked
+                                        <input type="radio" defaultchecked
                                             className="delivery-option-input"
                                             name="delivery-option-1" />
                                         <div>
@@ -138,7 +140,7 @@ export default function CheckoutPage() {
                                         </div>
                                     </div>
                                     <div className="delivery-option">
-                                        <input type="radio" checked className="delivery-option-input"
+                                        <input type="radio" defaultchecked className="delivery-option-input"
                                             name="delivery-option-2" />
                                         <div>
                                             <div className="delivery-option-date">
