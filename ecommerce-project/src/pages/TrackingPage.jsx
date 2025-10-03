@@ -6,10 +6,12 @@ import mobileLogoWhite from '../assets/images/mobile-logo-white.png'
 import cartIcon from '../assets/images/icons/cart-icon.png'
 import searchIcon from '../assets/images/icons/search-icon.png'
 
-export default function TrackingPage() {
+export default function TrackingPage({ cart }) {
+    
+
     return (
         <>
-            <Header />
+            <Header cart={cart} />
             <title>Tracking</title>
                 
             <div className="header">
